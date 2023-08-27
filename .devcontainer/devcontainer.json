@@ -1,0 +1,19 @@
+{
+    "name": "nrf5 SDK",
+    "image": "uprev/nrf5",
+    "remoteUser": "root",
+    "privileged": true,
+    "mounts": [
+        "type=bind,source=/dev/bus/usb,target=/dev/bus/usb"
+    ],
+    "postCreateCommand": "pip3 install -U mrtutils",
+    "features": {
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "nordic-semiconductor.nrf-connect-extension-pack"
+            ]
+        }
+    }
+}
