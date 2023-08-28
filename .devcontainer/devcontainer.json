@@ -6,12 +6,8 @@
     "mounts": [
         "type=bind,source=/dev/bus/usb,target=/dev/bus/usb"
     ],
-    "features": {
-        "ghcr.io/devcontainers/features/common-utils:2": {
-            "configureZshAsDefaultShell": true
-        },
-        "ghcr.io/guiyomh/features/vim": {}
-    },
+    // "features": {
+    // },
     "customizations": {
         "vscode": {
             "extensions": [
